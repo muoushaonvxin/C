@@ -9,3 +9,31 @@
 
 	
 	
+```c
+
+#inlcude <stdio.h>
+
+int Fib(int n){
+    if(n == 1 || n == 2){
+        return 1;	
+    }
+    return Fib(n-2) + Fib(n-1);
+}
+
+
+int main(){
+    int n;
+    printf("请输入一个值: ");
+    while(1 != scanf("%d", &n) || n < 1){
+        printf("输入的值非法,请重新输入");	
+        while(getchar() != '\n');
+    }
+    printf("长度为%d的斐波那契数列为: \n");
+    for(i = 1; i <= n; i++){
+    	printf("%d", Fib(i));
+    }
+
+    return 0;	
+}
+
+```
