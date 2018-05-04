@@ -73,3 +73,16 @@ int main(){
 
 
 
+```c
+
+#include <stdio.h>
+
+#define N 4
+
+int main(){
+    int a[N]; // 生命一个数组
+
+    return 0;	
+}
+
+```
