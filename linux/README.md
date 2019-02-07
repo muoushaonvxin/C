@@ -76,3 +76,17 @@ GNU是GNU's Not UNIX的缩写，意思是说，GUN并不是UNIX，1984年，开�
 | -ansi   | 支持符合ANSI标准的c程序，关闭GNUC中不兼容ANSIC的特性 |
 | -std    | 指定语言使用的标准，如 -std=c99 |
 
+### 有关宏定义的相关代码演示
+
+```c
+#include <stdio.h>
+
+int main()
+{
+   #ifdef DNAME
+      printf("zhangyz, welcome.\n");
+   
+   printf("hello world!\n");
+   return 0;
+}
+```
