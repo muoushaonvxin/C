@@ -85,6 +85,7 @@ int main()
 {
    #ifdef DNAME
       printf("zhangyz, welcome.\n");
+   #endif
    
    printf("hello world!\n");
    return 0;
