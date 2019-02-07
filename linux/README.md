@@ -1,3 +1,15 @@
+编写相关代码示例
+
+```c
+#include <stdio.h>
+
+int main()
+{
+   printf("hello world!\n");
+   return 0;
+}
+```
+
 编译步骤:
 
 ```shell
