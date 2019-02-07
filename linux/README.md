@@ -90,4 +90,13 @@ int main()
    printf("hello world!\n");
    return 0;
 }
+
+// 编译并运行
+[root@zhangyz ~]# gcc hello.c -o hello
+[root@zhangyz ~]# ./hello
+hello world!
+[root@zhangyz ~]# gcc -DDNAME hello.c -o hello
+[root@zhangyz ~]# ./hello
+zhangyz, welcome.
+hello world!
 ```
